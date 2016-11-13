@@ -7,7 +7,7 @@ require_once "vendor/autoload.php";
 
 // przykładowa konfiguracja za pomocą adnotacji w kodzie
 $isDevMode = true;
-$config = Setup::createAnnotationMetadataConfiguration(array(__DIR__."/src"), $isDevMode);
+$config = Setup::createAnnotationMetadataConfiguration(array(__DIR__."/SRC"), $isDevMode);
 
 // konfiguracja połączenia
 $conn = array(
@@ -21,3 +21,5 @@ $conn = array(
 
 //stworzenie obiektu Entity Managera
 $entityManager = EntityManager::create($conn, $config);
+echo 'Połączenie z bazą';
+?>

@@ -6,6 +6,7 @@
 
 <body>
     <ul>
+        <li><a href="install.php">Instalacja</a></li>
         <li><a href="formularz.html">Formularz</a></li>
         <li><a href="Script2.php">Wszystie sale</a></li>
     </ul>
